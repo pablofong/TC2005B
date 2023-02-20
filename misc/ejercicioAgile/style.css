@@ -1,0 +1,79 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #E4FDE1;
+    font-family: 'Montserrat';
+  }
+
+  table {
+    table-layout: fixed;
+    width: 100%;
+  }
+    
+  .navbar {
+    text-align: center;
+    /* background-color: #8ACB88; */
+  }
+
+  .title {
+    text-align: center;
+    padding: 1em;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    background-color: darkkhaki;
+  }
+  .question {
+    font-weight: bold;
+    color:blue;
+  }
+
+
+  .footer {
+    background-color: #575761;
+    color: white;
+    text-align: left;
+  }
+
+  .answer-image {
+    width: 70%;
+  }
+  
+  .answer-text {
+    width: 30%;
+    font-size: .9em;
+    line-height: 1;
+  }
+  
+  .answer-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 2.4em;
+    color: #575761;
+    font-family: 'Montserrat';
+  }
+  
+  h2 {
+    font-size: 1.3em;
+    text-align: center;
+    font-family: 'Montserrat';
+  }
+
+  h3 {
+    font-size: 1.2em;
+    text-align: center;
+    font-family: 'Montserrat';
+  }
+  
+  p{
+    font-size: 1em;
+    line-height: 1.2;
+  }
+  li{
+    padding-bottom: 2%;
+  }
