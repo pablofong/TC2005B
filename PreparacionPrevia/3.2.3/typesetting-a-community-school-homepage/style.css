@@ -1,0 +1,140 @@
+/* General setup */
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Labrada:ital@1&family=Roboto:wght@300&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+/*   @font-face {
+  font-family: 'Gloock', serif;
+  font-family: 'Labrada', serif;
+  font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Gloock&family=Labrada:ital@1&family=Roboto:wght@300&display=swap') rel='stylesheet';
+  }
+ */
+
+body {
+  font-family: 'Roboto', cursive;
+  font-size: 10px;
+  line-height: 1.5em;
+  letter-spacing: .5px;
+  word-spacing: 1.5px;
+}
+h1, h2 {
+  font-family: 'Labrada', serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+section h2 + p {
+  text-indent: 2em;
+}
+
+a:active{
+  font-weight: bold;
+}
+a:link {
+  color: rgb(255, 87, 51);
+  
+}
+
+a:visited{
+  color: rgb(136, 59, 43);
+}
+
+a:hover {
+  color: rgb(199, 0, 57);
+  text-decoration: none;
+}
+
+a:focus {
+  color: rgb(255, 195, 0);
+  text-decoration: none;
+  outline: none;
+}
+a[href^="http"] {
+  background: url("https://img.icons8.com/metro/512/external-link.png") no-repeat 100% 0;
+  background-size: 10px 10px;
+  padding-right: 15px;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+aside ul, section ul {
+  list-style: square url(https://cdn-icons-png.flaticon.com/16/69/69495.png) inside;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+nav ul {
+  text-align: center;
+  font-size: 20px;
+  list-style: none;
+  
+}
+
+nav li{
+  line-height: 3em;  
+  background-color: rgb(199, 0, 57);
+  font-family: 'Gloock', serif;
+}
+nav a{
+  text-decoration: none;
+}
+
+nav a:link, a:visited, a:hover, a:focus{
+  color: white;
+}
