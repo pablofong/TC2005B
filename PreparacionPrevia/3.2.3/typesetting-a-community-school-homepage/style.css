@@ -113,7 +113,10 @@ li, p {
 }
 
 aside ul, section ul {
-  list-style: square url(https://cdn-icons-png.flaticon.com/16/69/69495.png) inside;
+  list-style: square url(https://c
+  
+  
+  dn-icons-png.flaticon.com/16/69/69495.png) inside;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
