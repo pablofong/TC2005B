@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+h2,
+h3,
+h4 {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+/* Configuracion del banner */
+.banner {
+  background-image: url("../../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Configuracion del contenido de la pagina */
+.grid {
+  margin: 0 auto;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+/* Config general tabla */
+/* table {
+  border-collapse: collapse;
+  width: auto;
+} */
+
+thead{
+  text-align: center;
+}
+/* Config para los titulos de columnas */
+#categories th {
+  padding: 12px 20px;
+  text-align: center;
+  background-color: #f2526e;
+  color: white;
+}
+
+/* Config para intercambio de colores por fila */
+#categories tr:nth-child(odd) {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #f14764;
+}
+
+/* Poner texto en el centro de la casilla */
+.toCenter {
+  text-align: center;
+}
+
+.toCenter button {
+  width: 80%;
+  border: 1px solid #b4b0b0;
+  border-radius: 5px;
+}
+
+/* Pos de la tabla */
+article {
+  width: auto;
+  height: auto;
+  padding: 2rem 4rem;
+  box-sizing: border-box;
+}
+
+/* Pos de la oferta de trabajo al costado */
+aside {
+  width: auto;
+  height: auto;
+  padding: 20px 25px;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+}
+
+aside h3 {
+  text-transform: uppercase;
+  color: #f2526e;
+}
+
+aside img {
+  height: 219px;
+  width: auto;
+}
+
+.footer {
+  background-color: #d9d9d9;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

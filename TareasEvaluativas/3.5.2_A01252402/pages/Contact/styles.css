@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+
+h3,
+h4{
+  font-family: 'Oswald', sans-serif;
+}
+
+
+label{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 12px;
+  line-height: 2em;
+}
+
+input, 
+select, 
+textarea{
+  font-family: google-Roboto, sans-serif;
+  text-indent: 1em;
+  font-size: 10px;
+}
+
+
+/* Configuracion del banner */
+.banner {
+    background-image: url("../../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer */
+
+main{
+  padding: 0 5em;
+  margin-bottom: 1em;
+}
+
+
+
+
+input{
+  width: 90%;
+  height: 3em;
+}
+textarea{
+  width: 95%;
+  resize: none;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif!important;
+    font-weight: 700!important;
+    color: #F14764!important;
+}
+.footer {
+  background-color: #d9d9d9;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
